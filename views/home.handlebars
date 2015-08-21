@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Example App - Home</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <script src="/assets/js/lib/jquery-1.11.3.min.js"></script>
+    <script src="/assets/js/lib/underscore-min.js"></script>
+    <script src="/assets/js/lib/backbone-min.js"></script>
+    <script src="https://fb.me/react-0.13.3.js"></script>
+    <script src="/assets/js/app.js"></script>
+
 </head>
 <body>
 
-    <p>{{nflData.gameInfo}}</p>
-    <p>{{nflData.gameScores}}</p>
+    <div class="container">
+        <a href="http://www.seahawks.com/"><img id="hawksLogo" src="/assets/img/hawks.jpg" alt="Seahawks Logo"/></a>
+        <div id="app-mount"></div>
+    </div>
 
 </body>
 </html>

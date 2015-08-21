@@ -1,0 +1,45 @@
+.tie {
+    background-color:white;
+}
+.hawksLosing {
+    background-color:red;
+}
+.hawksWinning {
+    background-color:green;
+}
+#app-mount {
+    margin:0 auto;
+    width:80%;
+    text-align:center;
+}
+#hawksLogo {
+    margin:0 auto;
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
